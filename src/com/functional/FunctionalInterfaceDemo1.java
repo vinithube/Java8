@@ -13,6 +13,7 @@ public interface FunctionalInterfaceDemo1 {
 
     //you have 2 default method
     public default void defaultm1(){
+
         System.out.println("first default method");
     }
 
@@ -28,4 +29,8 @@ public interface FunctionalInterfaceDemo1 {
     public static void static2(){
         System.out.println("second static method");
     }
+
+    //why static method in functional interface ??
+
+    //which are functional interface - predicate,consumer,clonable,runnable
 }

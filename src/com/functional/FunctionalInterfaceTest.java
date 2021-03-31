@@ -9,11 +9,13 @@ public class FunctionalInterfaceTest implements FunctionalInterfaceDemo1{
 
     @Override
     public void defaultm1() {
+
         System.out.println("I got overridedd and deafult keyword got removed");
     }
 
     @Override
     public void defaultm2() {
+
         System.out.println("I got overridedd and deafult keyword got removed");
     }
 

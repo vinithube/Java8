@@ -6,9 +6,10 @@ public class LambdaExpressionDemo {
 
     public static void main(String args[]){
 
-        LambdaInterface lambda = (int x) -> x+x;
+        LambdaInterface lambda = x -> x+x;
+        //why this kind of implemetation
 
-        System.out.println(lambda.getAddition(8));
+        System.out.println(lambda.getAddition(20));
     }
 
 }

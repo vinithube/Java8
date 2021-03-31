@@ -12,6 +12,7 @@ public class OptionalDemo {
           Integer[] array = new Integer[3];
          // array[2] = 7;
           Optional<Integer> optional = Optional.ofNullable(array[2]);
+          //dig out more optional methods
           if(optional.isPresent()){
               System.out.println(array[2].toString());
           }else{
