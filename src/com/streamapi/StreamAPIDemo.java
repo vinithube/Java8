@@ -10,7 +10,8 @@ public class StreamAPIDemo {
     //It is used to computation(math operation) over Data
     //filter() ,map(), collect()
 
-    //intermdiate //terminal operation
+    //intermediate //terminal operation
+    // read more details - https://www.educative.io/blog/master-stream-api-and-beyond
 
     public static void main(String[] args){
 
@@ -19,7 +20,7 @@ public class StreamAPIDemo {
            list.add(new Person(2,"Vinod"));
            list.add(new Person(3,"Thube"));
 
-           //1. we want person whos id is >1
+           //1. we want person who's id is >1
            list = list.stream().filter(p->p.getId() > 1)
                    .filter(p->p.getName().startsWith("V"))
                    .collect(Collectors.toList());
