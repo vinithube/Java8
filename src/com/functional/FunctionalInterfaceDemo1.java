@@ -30,7 +30,9 @@ public interface FunctionalInterfaceDemo1 {
         System.out.println("second static method");
     }
 
-    //why static method in functional interface ??
+    //Question - why static method in functional interface ??
+    //Answer - https://www.geeksforgeeks.org/static-method-in-interface-in-java/
 
     //which are functional interface - predicate,consumer,clonable,runnable
+
 }
